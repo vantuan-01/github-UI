@@ -46,6 +46,6 @@ ok lại
 đầu tiên
 tạo 1 .fxml moi trong view, làm đi
 no
-discord đi
+
 
 * */
