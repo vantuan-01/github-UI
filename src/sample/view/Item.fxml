@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+
+
+<HBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="44.0" prefWidth="706.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label text="1">
+         <HBox.margin>
+            <Insets left="75.0" />
+         </HBox.margin>
+      </Label>
+      <Label text="2">
+         <HBox.margin>
+            <Insets left="75.0" />
+         </HBox.margin>
+      </Label>
+      <Label text="3">
+         <HBox.margin>
+            <Insets left="75.0" />
+         </HBox.margin>
+      </Label>
+      <Label text="Lập trình Window">
+         <HBox.margin>
+            <Insets left="75.0" />
+         </HBox.margin>
+      </Label>
+      <Label text="Image">
+         <HBox.margin>
+            <Insets left="75.0" />
+         </HBox.margin>
+      </Label>
+      <Label text="50">
+         <HBox.margin>
+            <Insets left="75.0" />
+         </HBox.margin>
+      </Label>
+   </children>
+</HBox>

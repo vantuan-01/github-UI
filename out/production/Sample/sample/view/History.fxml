@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="597.0" prefWidth="776.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" >
+   <children>
+      <TabPane layoutX="-1.0" layoutY="-1.0" prefHeight="597.0" prefWidth="776.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Request">
+               <content>
+                  <TableView prefHeight="200.0" prefWidth="200.0">
+                    <columns>
+                      <TableColumn prefWidth="75.0" text="ID" />
+                      <TableColumn prefWidth="105.60000610351562" text="ID Reader" />
+                        <TableColumn prefWidth="119.99998474121094" text="ID Book" />
+                        <TableColumn prefWidth="84.79998779296875" text="Quantity" />
+                        <TableColumn prefWidth="131.20001220703125" text="Authentic" />
+                        <TableColumn prefWidth="265.5999755859375" text="Send Request Date" />
+                    </columns>
+                  </TableView>
+               </content>
+            </Tab>
+          <Tab text="Borrow Record">
+               <content>
+                  <TableView prefHeight="200.0" prefWidth="200.0">
+                    <columns>
+                      <TableColumn prefWidth="75.0" text="C1" />
+                      <TableColumn prefWidth="75.0" text="C2" />
+                    </columns>
+                  </TableView>
+               </content>
+            </Tab>
+            <Tab text="Input Book Record">
+               <content>
+                  <TableView prefHeight="200.0" prefWidth="200.0">
+                    <columns>
+                      <TableColumn prefWidth="75.0" text="C1" />
+                      <TableColumn prefWidth="75.0" text="C2" />
+                    </columns>
+                  </TableView>
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>
