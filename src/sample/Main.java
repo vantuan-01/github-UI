@@ -45,7 +45,4 @@ t éo nhớ j cả :)
 ok lại
 đầu tiên
 tạo 1 .fxml moi trong view, làm đi
-no
-
-
 * */
